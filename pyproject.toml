@@ -1,0 +1,9 @@
+[project]
+name = "mission-events"
+version = "0.1.0"
+description = "Lab 02 - Mission Events API"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
